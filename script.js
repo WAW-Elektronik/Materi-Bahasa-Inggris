@@ -108,8 +108,136 @@ const content = {
         <tr><td>be ready to	</td><td>siap untuk (readiness)	</td><td>We <b>are ready to </b>begin.</td></tr>
         <tr><td>be permitted to	</td><td>diizinkan (formal permission)	</td><td>You <b>are permitted to </b>enter the lab.</td></tr>
     </table>
-  `
-};
+  `,
+
+  timeexpressions: `
+    <h2>Time Expressions</h2>
+<p><b>Time Expressions</b> adalah penempatan waktu yang digunakan sesuai dengan tenses.</p>
+<div style="overflow-x:auto;">
+<table>
+  <tr>
+    <th>No</th>
+    <th>Tense</th>
+    <th>Fungsi & Penggunaan</th>
+    <th>Contoh</th>
+  </tr>
+  <tr><td>1</td><td>Simple Present</td><td>every day, usually, often, always, sometimes, never, on Mondays, in the morning</td><td>I go to school every morning.</td>
+  <tr><td>2</td><td>Present Continuous</td><td>now, at the moment, right now, currently, this week, today</td><td>She is studying right now.</td></tr>
+  <tr><td>3</td><td>Present Perfect</td><td>just, already, yet, ever, never, since, for, recently, so far</td><td>We have finished our homework already.</td></tr>
+  <tr><td>4</td><td>Present Perfect Continuous</td><td>for, since, lately, recently, all day, the whole week</td><td>He has been reading for two hours.</td></tr>
+
+  <tr><td>5</td><td>Simple Past</td><td>yesterday, last week, last year, in 2020, a few days ago, when I was young </td><td>They watched a movie last night.</td></tr>
+  <tr><td>6</td><td>Past Continuous</td><td>while, when, at that time, all night, all day yesterday</td><td>I was cooking when you called.</td></tr>
+  <tr><td>7</td><td>Past Perfect</td><td>before, after, by the time, until then, already (past context)</td><td>She had left before I arrived.</td></tr>
+  <tr><td>8</td><td>Past Perfect Continuous</td><td>for, since, before, until, by the time + past clause</td><td>We had been working since morning.</td></tr>
+
+  <tr><td>9</td><td>Simple Future</td><td>tomorrow, next week, in 2025, soon, later, the day after tomorrow</td><td>He will visit his grandma tomorrow.</td></tr>
+  <tr><td>10</td><td>Future Continuous</td><td>at this time tomorrow, next week at 10 PM, while, when + future action</td><td>At 9 PM, I will be watching TV.</td></tr>
+  <tr><td>11</td><td>Future Perfect</td><td>by tomorrow, by then, before, by the time + present simple</td><td>By next week, they will have completed the project.</td></tr>
+  <tr><td>12</td><td>Future Perfect Continuous</td><td>for + duration + by the time, by then, for 5 hours by midnight</td><td>By noon, she will have been working for 5 hours.</td></tr>
+
+  <tr><td>13</td><td>Simple Past Future</td><td>(tidak pasti waktu spesifik, sering dari reported speech) e.g. I thought I would go tomorrow</td><td>He said he would join the trip the next day.</td></tr>
+  <tr><td>14</td><td>Past Future Continuous</td><td>at that time (from the past view), the next day at 5 PM</td><td>I thought I would be studying at this time yesterday.</td></tr>
+  <tr><td>15</td><td>Past Future Perfect</td><td>by the next day, by 5 PM (dalam konteks masa lalu)</td><td>She would have finished the job by the time we arrived.</td></tr>
+  <tr><td>16</td><td>Past Future Perfect Continuous</td><td>for 2 hours by the time she arrived, since morning (dalam narasi masa lalu)</td><td>He would have been waiting for an hour if the bus hadn’t come.</td></tr>
+</table>
+</div>
+    <br> Tips Penggunaan:
+    <br> - Gunakan keterangan waktu sebagai petunjuk utama untuk mengenali tense.
+    <br> - Perhatikan transisi waktu (before, after, since, by, for) pada tenses perfect dan perfect continuous.
+    <br> - Untuk past future tenses, konteks waktunya mengacu pada masa depan dari sudut pandang masa lalu.
+`,
+
+ordinalnumber: `
+    <h2>Ordinal Number</h2>
+    <p>Ordinal numbers adalah angka yang menunjukkan urutan atau posisi dalam suatu deretan.</p>
+
+    <p> 📋 <b>Daftar Ordinal Numbers Umum.</b></p>
+    <div style="overflow-x:auto;">
+    <table>
+      <tr>
+        <th>Angka</th>
+        <th>Ordinal</th>
+        <th></th>
+        <th>Angka</th>
+        <th>Ordinal</th>
+      </tr>
+      <tr><td>1</td><td>**first**</td><td></td><td>11</td><td>eleventh</td>
+      <tr><td>2</td><td>**second**</td><td></td><td>12</td><td>twelfth</td>
+      <tr><td>3</td><td>**third**</td><td></td><td>13</td><td>thirteenth</td>
+      <tr><td>4</td><td>fourth</td><td></td><td>14</td><td>fourteenth</td>
+      <tr><td>5</td><td>fifth</td><td></td><td>...</td><td>...</td>
+      <tr><td>6</td><td>sixth</td><td></td><td>20</td><td>twentieth</td>
+      <tr><td>7</td><td>seventh</td><td></td><td>21</td><td>twenty-first</td>
+      <tr><td>8</td><td>eighth</td><td></td><td>30</td><td>thirtieth</td>
+      <tr><td>9</td><td>ninth</td><td></td><td>40</td><td>fortieth</td>
+      <tr><td>10</td><td>tenth</td><td></td><td>100</td><td>one hundredth</td>
+    </table>
+    </div>
+  `,
+
+timebreame: `
+    <h2>Time (British vs American)</h2>
+<p> Dalam penggunaannya terdapat Perbedaan dalam penyebutan waktu dalam versi british dan amerika.</p>
+
+<p> 1. ⏰ Penyebutan Jam (Time of Day).</p>
+<div style="overflow-x:auto;">
+<table>
+  <tr>
+    <th>Jam</th>
+    <th>British English (BrE)</th>
+    <th>American English (AmE)</th>
+  </tr>
+  <tr><td>7:15</td><td>quarter past seven</td><td>seven fifteen</td>
+  <tr><td>7:30</td><td>half past seven</td><td>seven thirty</td>
+  <tr><td>7:45</td><td>quarter to eight</td><td>seven forty-five</td>
+  <tr><td>8:05</td><td>five past eight</td><td>eight oh five</td>
+  <tr><td>8:50</td><td>ten to nine</td><td>eight fifty</td>
+  <tr><td>9:00</td><td>nine o’clock</td><td>nine o’clock</td>
+</table>
+</div>
+
+<p> 2. 🕗 AM / PM vs. Morning/Afternoon. </p>
+<div style="overflow-x:auto;">
+<table>
+  <tr>
+    <th>Jam</th>
+    <th>British English (BrE)</th>
+    <th>American English (AmE)</th>
+  </tr>
+<tr><td>7:00</td><td>seven in the morning</td><td>seven AM</td>
+<tr><td>13:00</td><td>one in the afternoon</td><td>one PM</td>
+<tr><td>18:00</td><td>six in the evening</td><td>six PM</td>
+<tr><td>23:00</td><td>eleven at night</td><td>eleven PM</td>
+</table>
+</div>
+
+<p> 3. 📅 Format Tanggal dan Waktu </p>
+<div style="overflow-x:auto;">
+<table>
+  <tr>
+    <th>Format</th>
+    <th>British English (BrE)</th>
+    <th>American English (AmE)</th>
+  </tr>
+<tr><td>Tanggal</td><td>5 October 2025</td><td>October 5, 2025</td>
+<tr><td>Jam (tertulis formal)</td><td>17:30 (24-hour clock)</td><td>5:30 PM (12-hour clock)</td>
+</table>
+</div>
+
+<p> 4. Contoh Perbandingan Kalimat </p>
+<div style="overflow-x:auto;">
+<table>
+  <tr>
+    <th>British English (BrE)</th>
+    <th>American English (AmE)</th>
+  </tr>
+  <tr><td>I’ll meet you at half past four.</td><td>I’ll meet you at four thirty.</td>
+  <tr><td>Our holiday starts on 5 July.</td><td>Our vacation starts on July 5th.</td>
+  <tr><td>He’ll arrive at quarter to eight.</td><td>He’ll arrive at seven forty-five.</td>
+</table>
+</div>
+`};
 
 function showContent(type) {
   const area = document.getElementById('contentArea');
