@@ -237,7 +237,7 @@ timebreame: `
   <tr><td>He’ll arrive at quarter to eight.</td><td>He’ll arrive at seven forty-five.</td>
 </table>
 </div>
-`
+`,
 
 PhrasalVerb:`
   <h2>Phrasal Verb</h2>
@@ -533,6 +533,7 @@ function showContent(type) {
   const area = document.getElementById('contentArea');
   area.innerHTML = content[type];
 }
+
 
 
 
