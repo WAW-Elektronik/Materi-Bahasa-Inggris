@@ -242,7 +242,7 @@ timebreame: `
 PhrasalVerb:`
   <h2>Phrasal Verb</h2>
   <p>Phrasal Verb adalah konstruksi frasa yang terdiri dari kata kerja (verb) yang diikuti oleh satu atau lebih kata depan (preposition) atau adverbia (adverb). Phrasal verb cenderung memiliki makna khusus yang tidak dapat dipahami hanya dengan merinci makna kata kerja dan kata depan atau adverbia yang membentuknya.</p>
-  <div style="overflow-x:auto;">
+  <div style="overflow-x:auto;"></div>
   
   <h2>Phrasal verb punya beberapa fungsi dan kegunaan.</h2>
   <table>
@@ -260,7 +260,6 @@ PhrasalVerb:`
   <tr><td>7</td><td>Pewarisan Kultural</td><td>mencerminkan pewarisan kultural dan kebiasaan berbahasa dalam suatu masyarakat. Memahami penggunaan phrasal verb dapat memberikan wawasan tentang cara berbicara dan berkomunikasi dalam suatu budaya.</td>
   <tr><td>8</td><td>Menghindari Kebosanan dalam Bahasa</td><td>memberikan variasi dan kreativitas dalam penggunaan kata kerja, membantu menghindari kebosanan dalam bahasa dan memberikan warna yang berbeda dalam komunikasi.</td>
   </table>
-  </div>
 
   <h2>Struktur Kalimat Phrasal Verb.</h2>
   <table>
@@ -356,12 +355,12 @@ PhrasalVerb:`
   <tr><td>29</td><td>Check out</td><td>Before leaving the hotel, make sure to check out at the front desk</td><td>Sebelum meninggalkan hotel, pastikan untuk check out di meja depan</td>
   <tr><td>30</td><td>Get in</td><td>We need to get in the car and leave before the traffic gets worse</td><td>Kita perlu masuk ke mobil dan pergi sebelum lalu lintas semakin parah</td>
   </table>
-`,
+  `,
 
 Idiom:`
   <h2>Idiom</h2>
   <p>Idiom adalah sekelompok kata atau frasa yang memiliki makna kiasan, berbeda dari makna harfiah dari setiap kata penyusunnya. Makna idiom tidak bisa diuraikan hanya dengan mendefinisikan kata-katanya satu per satu, melainkan harus dipahami secara keseluruhan sebagai satu kesatuan.</p>
-  <div style="overflow-x:auto;">
+  <div style="overflow-x:auto;"></div>
 
   <table>
   <tr>
@@ -527,7 +526,6 @@ Idiom:`
   <tr><td>154</td><td>You can lead a horse to water, but you can't make him drink</td><td>Anda tidak bisa memaksa seseorang untuk mengambil keputusan yang tepat</td><td>sebagai kalimat sendiri</td>
   <tr><td>155</td><td>You can't make an omelet without breaking some eggs</td><td>Selalu ada biaya yang harus dikeluarkan untuk melakukan sesuatu</td><td>sebagai kalimat sendiri</td>
   </table>
-  </div>
   `,
 };
 
@@ -535,5 +533,6 @@ function showContent(type) {
   const area = document.getElementById('contentArea');
   area.innerHTML = content[type];
 }
+
 
 
