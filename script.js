@@ -276,7 +276,6 @@ PhrasalVerb:`
   <tr><td>4</td><td>Kata Kerja + Kata Depan + Objek + Kata Depan</td><td>Subyek + Kata Kerja + Kata Depan + Objek + Kata Depan</td><td>We need to catch up on our work during the weekend.</td>
   <tr><td>5</td><td>Kata Kerja + Kata Depan + Objek + Kata Depan</td><td>Subyek + Kata Kerja + Objek + Kata Depan + Objek</td><td>She handed in her assignment to the teacher.</td>
   </table>
-  </div>
     <br> Perhatikan bahwa nggak semua phrasal verb memerlukan objek. Beberapa phrasal verb dapat digunakan tanpa objek, tergantung pada konteksnya. Pemahaman konteks dan makna phrasal verb tertentu akan membantu dalam memilih struktur kalimat yang sesuai.
 
   <h2>Contoh Phrasal Verb.</h2>
@@ -316,6 +315,7 @@ PhrasalVerb:`
   <tr><td>28</td><td>Turn around</td><td>Berbalik atau mengubah arah</td>
   <tr><td>29</td><td>Check out</td><td>Mengecek atau memeriksa sesuatu</td>
   <tr><td>30</td><td>Get in</td><td>Masuk ke dalam suatu tempat atau kendaraan</td>
+  </table>
 
   <h2>Contoh Kalimat Phrasal Verb.</h2>
   <table>
@@ -355,6 +355,7 @@ PhrasalVerb:`
   <tr><td>28</td><td>Turn around</td><td>The economy started to turn around after the implementation of new policies</td><td>Ekonomi mulai membaik setelah penerapan kebijakan baru</td>
   <tr><td>29</td><td>Check out</td><td>Before leaving the hotel, make sure to check out at the front desk</td><td>Sebelum meninggalkan hotel, pastikan untuk check out di meja depan</td>
   <tr><td>30</td><td>Get in</td><td>We need to get in the car and leave before the traffic gets worse</td><td>Kita perlu masuk ke mobil dan pergi sebelum lalu lintas semakin parah</td>
+  </table>
 `,
 
 Idiom:`
@@ -525,6 +526,8 @@ Idiom:`
   <tr><td>153</td><td>You can catch more flies with honey than you can with vinegar</td><td>Anda akan memperoleh apa yang diinginkan dengan bersikap baik</td><td>sebagai kalimat sendiri</td>
   <tr><td>154</td><td>You can lead a horse to water, but you can't make him drink</td><td>Anda tidak bisa memaksa seseorang untuk mengambil keputusan yang tepat</td><td>sebagai kalimat sendiri</td>
   <tr><td>155</td><td>You can't make an omelet without breaking some eggs</td><td>Selalu ada biaya yang harus dikeluarkan untuk melakukan sesuatu</td><td>sebagai kalimat sendiri</td>
+  </table>
+  </div>
   `,
 };
 
@@ -532,4 +535,5 @@ function showContent(type) {
   const area = document.getElementById('contentArea');
   area.innerHTML = content[type];
 }
+
 
